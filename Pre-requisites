@@ -1,0 +1,20 @@
+# Create AWS user 
+
+- Create a new user called 'rahul'
+
+- Dont provide console access
+
+- Attach admin access policy
+
+- Download security credentails ( select CLI option while creating keys )
+
+- Configure AWS CLI as below  
+
+aws configure ( enter here credentials from above ) 
+
+********************************************************************************************
+
+
+
+
+

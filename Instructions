@@ -1,0 +1,22 @@
+# Build
+
+terraform init
+terraform fmt
+terraform plan 
+terraform validate
+terraform apply -auto-approve
+
+# Verify
+
+Use ALB dns ( from o/p - http://my-alb-1959599046.ca-central-1.elb.amazonaws.com ) to verify for load between the 2 servers , it will show webserver-1 or webserver-2 upon refreshing the page
+
+# Optional for clean-up
+
+rm -rf .terraform*
+rm -rf terraform.tfstate*
+
+# Show state file
+
+terraform show
+
+***************************************************************************
